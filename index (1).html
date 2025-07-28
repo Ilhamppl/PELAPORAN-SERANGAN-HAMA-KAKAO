@@ -94,19 +94,31 @@
         <div><label class="block font-semibold">Unggah Foto (opsional)</label>
         <input type="file" class="mt-2" /></div>
         <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Kirim Laporan</button>
-      </form>
-    </section>
+      <!-- Laporan Hama -->
+<section id="laporan" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold text-green-700 mb-4">Laporkan Serangan Hama</h2>
+  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/formResponse" method="POST" target="_blank" class="bg-white rounded-lg shadow p-6 space-y-4">
+    <div>
+      <label class="block font-semibold">Nama Lengkap</label>
+      <input type="text" name="entry.1111111111" class="w-full border rounded px-3 py-2 mt-1" placeholder="Contoh: Budi Santoso" required>
+    </div>
+    <div>
+      <label class="block font-semibold">Lokasi Kebun</label>
+      <input type="text" name="entry.2222222222" class="w-full border rounded px-3 py-2 mt-1" placeholder="Kampung, Kecamatan, Kabupaten" required>
+    </div>
+    <div>
+      <label class="block font-semibold">Deskripsi Hama</label>
+      <textarea name="entry.3333333333" class="w-full border rounded px-3 py-2 mt-1" rows="4" placeholder="Contoh: Buah menguning..." required></textarea>
+    </div>
+    <div>
+      <label class="block font-semibold">Unggah Foto (opsional)</label>
+      <input type="file" class="mt-2" disabled title="Silakan unggah foto langsung melalui Google Form.">
+      <p class="text-xs text-gray-500 italic mt-1">Upload hanya bisa dilakukan langsung melalui <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPwNSfdPEzczjKflQLoF_4fOTqk8lPuTYdXJ5m3jC6TXkQeQ/viewform" target="_blank" class="text-green-700 underline">Google Form</a>.</p>
+    </div>
+    <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800">Kirim Laporan</button>
+  </form>
+</section>
 
-    <!-- Kontak -->
-    <section id="kontak" data-aos="fade-up">
-      <h2 class="text-2xl font-semibold text-green-700 mb-4">Kontak Penyuluh</h2>
-      <div class="bg-green-100 p-6 rounded-lg space-y-2 text-sm">
-        <p><strong>Nama:</strong> Ilham Muis</p>
-        <p><strong>Instansi:</strong> Dinas Perkebunan Kabupaten Berau</p>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/6281258702099" target="_blank" class="text-green-800 font-semibold hover:underline">+62 812-5870-2099</a></p>
-        <p><strong>Email:</strong> ilhammuis5@gmail.com</p>
-      </div>
-    </section>
 
   </main>
 
